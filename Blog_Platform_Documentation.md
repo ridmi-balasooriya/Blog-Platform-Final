@@ -16,7 +16,7 @@ This project is a blog platform that allows users to read articles, register and
 8. <a href="#id8">Troubleshooting</a>
 9. <a href="#id9">Configuration for Local Development</a>
 
-## Project Structure {#id1}
+## [Project Structure](#id1)
 
 blog-platform/
 ├── backend/
