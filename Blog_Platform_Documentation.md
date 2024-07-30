@@ -20,12 +20,12 @@ This project is a blog platform that allows users to read articles, register and
 
 ```
 blog-platform/
-├── backend/
+├── blog_platform/  (backend)
 │ ├── blog/
 │ ├── blog_platform/
 │ ├── manage.py
 │ └── requirements.txt
-├── frontend/
+├── blog_platform_front/  (frontend)
 │ ├── public/
 │ ├── src/
 │ ├── package.json
