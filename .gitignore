@@ -1,0 +1,40 @@
+# Ignore Python cache files
+blog_platform/blog/__pycache__/
+
+# Ignore environment variables file
+blog_platform/.env
+
+# Ignore AWS credentials
+blog_platform/awspass
+
+# Ignore log files
+blog_platform/django.log
+blog_platform/email.log
+
+# Ignore SQLite database file
+blog_platform/db.sqlite3
+blog_platform/django.log
+blog_platform/db.sqlite3
+blog_platform/mydatabase.dump
+
+# dependencies
+blog_platform_front/node_modules
+blog_platform_front/.pnp
+blog_platform_front/.pnp.js
+
+# testing
+blog_platform_front/coverage
+
+# production
+blog_platform_front/build
+
+# misc
+blog_platform_front/.DS_Store
+blog_platform_front/.env.local
+blog_platform_front/.env.development.local
+blog_platform_front/.env.test.local
+blog_platform_front/.env.production.local
+
+blog_platform_front/npm-debug.log*
+blog_platform_front/yarn-debug.log*
+blog_platform_front/yarn-error.log*

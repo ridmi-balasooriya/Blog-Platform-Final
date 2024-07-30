@@ -1,0 +1,1 @@
+web: gunicorn --workers 3 --bind :8000 blog_platform.wsgi:application
