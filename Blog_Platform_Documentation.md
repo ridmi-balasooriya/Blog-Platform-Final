@@ -18,6 +18,7 @@ This project is a blog platform that allows users to read articles, register and
 
 ## Project Structure
 
+```
 blog-platform/
 ├── backend/
 │ ├── blog/
@@ -30,7 +31,7 @@ blog-platform/
 │ ├── package.json
 │ └── webpack.config.js
 └── README.md
-
+```
 ## Installation
 
 ### Prerequisites
