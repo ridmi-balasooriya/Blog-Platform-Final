@@ -30,7 +30,9 @@ blog-platform/
 │ ├── src/
 │ ├── package.json
 │ └── webpack.config.js
+├── Blog_Platform_Documentation.md
 └── README.md
+
 ```
 ## Installation
 
