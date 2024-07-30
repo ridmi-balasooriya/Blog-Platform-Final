@@ -6,7 +6,7 @@ This project is a blog platform that allows users to read articles, register and
 
 # Table of Contents
 
-1. <a href="#id1">Project Structure</a>
+1.[Project Structure](#project-structure)
 2. <a href="#id2">Installation</a>
 3. <a href="#id3">Configuration</a>
 4. <a href="#id4">Deployment</a>
@@ -16,7 +16,7 @@ This project is a blog platform that allows users to read articles, register and
 8. <a href="#id8">Troubleshooting</a>
 9. <a href="#id9">Configuration for Local Development</a>
 
-## [Project Structure](#id1)
+## Project Structure
 
 blog-platform/
 ├── backend/
