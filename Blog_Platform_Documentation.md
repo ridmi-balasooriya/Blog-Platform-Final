@@ -6,15 +6,15 @@ This project is a blog platform that allows users to read articles, register and
 
 # Table of Contents
 
-1.[Project Structure](#project-structure)
-2. <a href="#id2">Installation</a>
-3. <a href="#id3">Configuration</a>
-4. <a href="#id4">Deployment</a>
-5. <a href="#id5">Usage</a>
-6. <a href="#id6">API Endpoints</a>
-7. <a href="#id7">Security</a>
-8. <a href="#id8">Troubleshooting</a>
-9. <a href="#id9">Configuration for Local Development</a>
+1. [Project Structure](#project-structure)
+2. [Installation](#installation)
+3. [Configuration](#configuration)
+4. [Deployment](#deployment)
+5. [Usage](#usage)
+6. [API Endpoints](#aPI-endpoints)
+7. [Security](#security)
+8. [Troubleshooting](#troubleshooting)
+9. [Configuration for Local Development](#configuration-for-local-development)
 
 ## Project Structure
 
@@ -31,7 +31,7 @@ blog-platform/
 │ └── webpack.config.js
 └── README.md
 
-## Installation {#id2}
+## Installation
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ blog-platform/
 3. Start the development server:
    `npm start`
 
-## Configuration {#id3}
+## Configuration
 
 ### Environment Variables
 
@@ -115,7 +115,7 @@ AWS_STORAGE_BUCKET_NAME=<AWS_STORAGE_BUCKET_NAME>
 AWS_S3_CUSTOM_DOMAIN=f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 ```
 
-## Deployment {#id4}
+## Deployment
 
 ### AWS Elastic Beanstalk
 
@@ -133,7 +133,7 @@ AWS_S3_CUSTOM_DOMAIN=f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 -   Go to Configuration -> Software.
 -   Add environment properties for your settings.
 
-## Usage {#id5}
+## Usage
 
 1. Access the application:
 
@@ -144,19 +144,19 @@ AWS_S3_CUSTOM_DOMAIN=f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
 3. Explore articles, write new articles, update existing ones, add comments, and like articles.
 
-## Security {#id6}
+## Security
 
 -   Authentication: Implemented using token-based authentication.
 -   CORS: Configured to allow requests from specific origins.
 -   HTTPS: Ensure HTTPS is enabled for secure communication.
 
-## Troubleshooting {#id7}
+## Troubleshooting
 
 -   CORS Issues: Ensure CORS_ALLOWED_ORIGINS includes your frontend URL.
 -   Database Errors: Verify database connection settings and credentials.
 -   Deployment Issues: Check AWS Elastic Beanstalk logs for detailed error messages.
 
-## Configuration for Local Development {#id8}
+## Configuration for Local Development
 
 For local development, ensure that the API_BASE_URL in your React application points to your local backend server. You can find this configuration in the config.jsx file:
 `const API_BASE_URL = 'http://127.0.0.1:8000';`
