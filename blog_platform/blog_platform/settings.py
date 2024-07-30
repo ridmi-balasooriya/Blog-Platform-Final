@@ -225,12 +225,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8000',
-    'http://192.168.70.233:3000',
-    'http://env-blog.eba-rqbv9mhp.eu-west-1.elasticbeanstalk.com',
-    'https://elasticbeanstalk-eu-west-1-851725255112.s3.amazonaws.com',
     'http://localhost:3000',
-    'http://54.73.125.6',
-    'http://ec2-54-73-125-6.eu-west-1.compute.amazonaws.com',
+    # <Other related Cross Origins>
 ]
 
 CORS_ALLOW_HEADERS = [
