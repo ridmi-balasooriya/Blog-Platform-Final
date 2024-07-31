@@ -5,15 +5,21 @@ This web application is a full-featured blog platform built using a modern techn
 
 ## Technologies Used
 - Frontend: React.js
-A dynamic and responsive user interface for an engaging user experience.
+ - A dynamic and responsive user interface for an engaging user experience.
 - Backend: Django
-A robust and secure REST API built using Django Rest Framework.
+ - A robust and secure REST API built using Django Rest Framework.
 - Database: PostgreSQL
-A powerful, open-source relational database system.
+ - A powerful, open-source relational database system.
+- Storage: AWS S3
+ - Used for storing static and media files.
+- Database Service: AWS RDS (PostgreSQL)
+ - Managed relational database service for PostgreSQL.
+- Deployment: AWS Elastic Beanstalk
+ - An easy-to-use service for deploying and scaling web applications and services.
 
 ## Features
 - User Management: Users can sign up, log in, and manage their profiles.
-- Article Management: Users can write, update, and delete their articles.
+- Article Management: Users can write, update, and delete articles.
 - Comments and Likes: Users can comment on and like articles.
 - Responsive Design: The platform is designed to work seamlessly on both desktop and mobile devices.
 
