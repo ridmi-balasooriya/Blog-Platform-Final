@@ -20,6 +20,8 @@ This web application is a full-featured blog platform built using a modern techn
 ## Features
 - User Management: Users can sign up, log in, and manage their profiles.
 - Article Management: Users can write, update, and delete articles.
+- Category Management: User can add, update, and delete Categories.
+- Tag Management: User can add, update, and delete Tags.
 - Comments and Likes: Users can comment on and like articles.
 - Responsive Design: The platform is designed to work seamlessly on both desktop and mobile devices.
 
