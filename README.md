@@ -25,6 +25,12 @@ This web application is a full-featured blog platform built using a modern techn
 - Comments and Likes: Users can comment on and like articles.
 - Responsive Design: The platform is designed to work seamlessly on both desktop and mobile devices.
 
+## Home Page Features
+- Featured Article Section: Displays the most liked and commented article.
+- Recent Articles Section: Displays the four most recently added articles.
+- Popular Topics Section: Displays the five most liked and commented articles.
+- Top Authors Section: Displays the top three authors who have written the most articles.
+
 ### Sample URL
 You can view and interact with the deployed application at the following URL:
 
