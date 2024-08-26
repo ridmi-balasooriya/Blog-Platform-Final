@@ -35,4 +35,4 @@ This web application is a full-featured blog platform built using a modern techn
 You can view and interact with the deployed application at the following URL:
 
 Tech Talk Blog Platform
-[Tech Talk Blog Platform](http://54.73.125.6/).
+[Tech Talk Blog Platform](http://54.73.125.6/](http://ridmi-personal-portfolio.s3-website-eu-west-1.amazonaws.com/).
